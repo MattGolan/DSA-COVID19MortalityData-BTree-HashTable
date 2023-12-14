@@ -1,5 +1,5 @@
 # DSA-COVID19MortalityData-BTree-HashTable
-Program to allow easy access to demographic and time specific COVID-19 mortality data. Additionally, the program was designed to utilize both a B Tree and a Hash Table to store the mortality data. For each search, the efficiency of the data structures is compared. 
+Program to allow easy access to demographic and time specific COVID-19 mortality data. (see https://data.cdc.gov/NCHS/Provisional-COVID-19-Deaths-by-Sex-and-Age/9bhg-hcku/about_data). Additionally, the program was designed to utilize both a B Tree and a Hash Table to store the mortality data. For each search, the efficiency of the data structures is compared. 
 
 In main, the program reads Centers for Disease Control and Prevention (CDC) data on COVID-19 mortality data from csv file. The csv file includes over 137,000 rows and separates mortality data by state, age range, time, and gender. Each line of data is read into usable variables and inserted into the data structures. Subsequently, the user is prompted to select a specific subcategory of the data. For example. Female Georgia residents aged 18-29 who died of COVID-19 in April 2021. The program will search both data structures and output the results. Subsequently the search is repeated one million times, and the efficiency of the Hash Table is compared with the efficiency of the B-Tree. 
 
